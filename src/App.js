@@ -19,7 +19,8 @@ export default function App(){
   }
 
   const resetClick = () => {
-    
+    setMy([]);
+    setOther([]);
   }
   return (
     <div id="box">
